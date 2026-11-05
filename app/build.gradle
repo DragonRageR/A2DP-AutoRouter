@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'ua.dragonrager.a2dprouter'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ua.dragonrager.a2dprouter'
+        minSdk 29
+        targetSdk 34
+        versionCode 2026110601
+        versionName '2026.11.06-alpha.1'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

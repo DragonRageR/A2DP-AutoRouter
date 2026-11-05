@@ -1,0 +1,29 @@
+# Android Studio / Gradle
+.gradle/
+.idea/
+**/build/
+local.properties
+*.iml
+.cxx/
+.externalNativeBuild/
+
+# Signing and local diagnostics
+*.keystore
+*.jks
+*.apk
+*.aab
+*.log
+*.pid
+*.tar.gz
+*.bak
+*.swp
+
+# Router installer temporary backup and recovered originals
+router/original_configuration_backup*/
+router/*.before_*.bak
+router/__pycache__/
+__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+{
+  "interaction": {
+    "type": "script",
+    "path": "/data/local/tmp/re.zyg.fri/libgadget.script.so",
+    "on_change": "ignore"
+  }
+}

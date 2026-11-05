@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "require_hfp_off": true,
+  "apps": {
+    "com.google.android.apps.tachyon": {"enabled": true, "action": "voice_to_media_and_a2dp"},
+    "com.spotify.music": {"enabled": true, "action": "media_to_a2dp"}
+  }
+}

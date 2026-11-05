@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- No internet, Bluetooth, microphone or audio-recording permission needed. -->
+    <queries>
+        <package android:name="com.google.android.apps.tachyon" />
+        <package android:name="com.spotify.music" />
+    </queries>
+    <application
+        android:allowBackup="false"
+        android:usesCleartextTraffic="false"
+        android:label="A2DP AutoRouter"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_router">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
